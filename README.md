@@ -5,7 +5,11 @@ ollama run serve
 ollama pull llama2
 ```
 
-## Quick Integration Guide STEPS
+```bash
+npm run start
+```
+
+## Quick Integration Guide
 
 **Ensure Ollama API Server is Running**: Follow the official instructions to get Ollama up and running on your machine
 
@@ -46,7 +50,3 @@ Then, edit the nginx configuration file `/etc/nginx/sites-enabled/default` and a
 Reach out to our community if you need help with this.
 
 <br/>
-
-```bash
-npm run start
-```
