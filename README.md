@@ -31,18 +31,6 @@ ollama pull llama2
 - You can now switch model/persona dynamically and text/voice chat with the models:<br/>
   <img src="pixels/config-ollama-3-chat.png" alt="config-local-ollama-3-chat.png" width="320">
 
-### Advanced: Model parameters
-
-For users who wish to delve deeper into advanced settings, `big-AGI` offers additional configuration options, such
-as the model temperature, maximum tokens, etc.
-
-### Advanced: Ollama under a reverse proxy
-
-You can elegantly expose your Ollama server to the internet (and thus make it easier to use from your server-side
-big-AGI deployments) by exposing it on an http/https URL, such as: `https://yourdomain.com/ollama`
-
-On Ubuntu Servers, you will need to install `nginx` and configure it to proxy requests to Ollama.
-
 ```bash
 sudo apt update
 sudo apt install nginx
