@@ -6,7 +6,7 @@ ollama pull llama2
 ```
 
 ```bash
-npm run start
+npm start
 ```
 
 ## Quick Integration Guide
