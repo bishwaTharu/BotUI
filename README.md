@@ -20,17 +20,6 @@ ollama pull llama2
 > you'll have to press the 'Pull' button again, until a green message appears.
 > **Chat with Ollama models**: select an Ollama model and begin chatting with AI personas
 
-**Visual Configuration Guide**:
-
-- After adding the `Ollama` model vendor, entering the IP address of an Ollama server, and refreshing models:<br/>
-  <img src="pixels/config-ollama-1-models.png" alt="config-local-ollama-1-models.png" width="320">
-
-- The `Ollama` admin panel, with the `Pull` button highlighted, after pulling the "Yi" model:<br/>
-  <img src="pixels/config-ollama-2-admin-pull.png" alt="config-local-ollama-2-admin-pull.png" width="320">
-
-- You can now switch model/persona dynamically and text/voice chat with the models:<br/>
-  <img src="pixels/config-ollama-3-chat.png" alt="config-local-ollama-3-chat.png" width="320">
-
 ```bash
 sudo apt update
 sudo apt install nginx
